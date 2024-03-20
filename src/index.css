@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --dark-orange: #D87D4A;
+  --light-orange: #fbaf85;
+  --black: #00000;
+  --white: #FFFFFF;
+  --grey: #F1F1F1;
+  --light-grey: #FAFAFA;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+
+}
