@@ -1,0 +1,14 @@
+.Header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4em 1em ;
+
+}
+
+.Header h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 2em ;
+}
