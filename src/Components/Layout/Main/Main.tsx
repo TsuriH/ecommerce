@@ -1,6 +1,10 @@
 import "./Main.css";
 import proProductImage from "../../../assets/home/mobile/image-header.jpg"
-import earphonesCategory from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview-removebg-preview.png"
+import headphonesCategory from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
+import speakersCategory from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
+import earphonesCategory from "../../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"
+import zx9Speaker from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
+
 export function Main(): JSX.Element {
     return (
         <div className="Main">
@@ -23,7 +27,7 @@ export function Main(): JSX.Element {
 
                     <div className="single-category-container">
                         <div className="category-image-container">
-                            <img src={earphonesCategory} alt="" />
+                            <img src={headphonesCategory} alt="" />
                         </div>
                         <p className="category-name">headphones</p>
                         <div className="shop-btn-container">
@@ -34,21 +38,58 @@ export function Main(): JSX.Element {
                     </div>
 
                     <div className="single-category-container">
-                        <img src="" alt="" />
-                        <p className="category-name"></p>
-                        <button className="shop"></button>
+                        <div className="category-image-container">
+                            <img src={speakersCategory} alt="" />
+                        </div>
+                        <p className="category-name">headphones</p>
+                        <div className="shop-btn-container">
+                            <button className="shop">shop</button>
+                            <p><i className="arrow-right"></i></p>
+                        </div>
                         <div className="lower-bg"></div>
                     </div>
 
                     <div className="single-category-container">
-                        <img src="" alt="" />
-                        <p className="category-name"></p>
-                        <button className="shop"></button>
+                        <div className="category-image-container">
+                            <img src={earphonesCategory} alt="" />
+                        </div>
+                        <p className="category-name">headphones</p>
+                        <div className="shop-btn-container">
+                            <button className="shop">shop</button>
+                            <p><i className="arrow-right"></i></p>
+                        </div>
                         <div className="lower-bg"></div>
                     </div>
 
                 </div>
-                <div className="single-products">this is the single products</div>
+
+                <div className="single-products">
+
+                    <div className="xz9-speaker-product">
+                        <div className="zx9-image-container">
+                            <img src={zx9Speaker} />
+                        </div>
+                        <h2>zx9 <span>speaker</span></h2>
+                        <p className="speaker-info">Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
+                        <button>see product</button>
+                        <div className="big-circle"></div>
+                    </div>
+
+                    {/* <div className="zx7-speakers-product">
+                        <img src={} />
+                        <h2>zx7 speaker</h2>
+                        <button>see product</button>
+                    </div>
+
+                    <div className="yx1-earphones-product-image">
+                        <img src={} />
+                    </div>
+                    <div className="earphone-name-and-btn">
+                        <h2>yx1 earphones</h2>
+                        <button>see product</button>
+                    </div> */}
+
+                </div>
             </div>
         </div>
     );

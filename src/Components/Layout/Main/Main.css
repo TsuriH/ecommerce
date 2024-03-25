@@ -1,133 +1,223 @@
 .Main {
-	background-color: var(--white);
-	height: 100%;
+    background-color: var(--white);
+    height: 100%;
 }
 
-.Main .container {}
-
 .Main .promoted-product-cover {
-	position: relative;
+    position: relative;
 }
 
 .pro-product-image-container {
-	height: 100%;
-	width: auto;
-	overflow: hidden;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
 }
 
 .pro-product-image {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .pro-product-info-container {
-	position: absolute;
-	top: 55%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1.2em;
-	text-align: center;
-	width: 100%;
-	padding: 3em;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+    text-align: center;
+    width: 100%;
+    padding: 3em;
 }
 
 .Main .pro-product-info-container p:first-child {
-	text-transform: uppercase;
-	letter-spacing: 0.7em;
-	color: var(--white);
-	opacity: 0.4;
-	font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    color: var(--white);
+    opacity: 0.4;
+    font-size: 0.8em;
 }
 
 .Main .pro-product-info-container h2 {
-	text-transform: uppercase;
-	font-size: 2em;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 
 .Main .product-description {
-	color: var(--grey);
-	opacity: 0.7;
-	font-size: 0.8em;
-	line-height: 1.6em;
+    color: var(--grey);
+    opacity: 0.7;
+    font-size: 0.8em;
+    line-height: 1.6em;
 }
 
 .Main .pro-product-info-container button {
-	color: var(--white);
-	background-color: var(--dark-orange);
+    color: var(--white);
+    background-color: var(--dark-orange);
 }
 
 .Main .products-categories {
-	background-color: tan;
+    background-color: tan;
 }
 
 .Main .single-category-container {
-	position: relative;
-	width: 100%;
-	height: 200px;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	background-color: var(--white);
-	border: 2px solid purple;
-	z-index: 1;
-
-
+    position: relative;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    z-index: 1;
 }
 
 .Main .single-category-container .lower-bg {
-	position: absolute;
-	bottom: 0px;
-	background-color: var(--grey);
-	height: 70%;
-	width: 100%;
-	z-index: -1;
-
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--grey);
+    height: 70%;
+    width: 100%;
+    z-index: -1;
 }
 
 .Main .shop-btn-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 1em;
-	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1.5em;
 }
 
 .Main .single-category-container .category-name {
-	text-transform: uppercase;
-	
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 
 .Main .shop-btn-container button {
-	padding: 0em;
-	font-size: 15px;
+    padding: 0em;
+    font-size: 15px;
 }
 
 .Main .arrow-right {
-	border: solid var(--dark-orange);
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 3px;
-	transform: rotate(-45deg);
+    border: solid var(--dark-orange);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3.5px;
+    transform: rotate(-45deg);
 }
 
 .Main .shop {
-	font-size: 0.8em;
-	margin-top:2px;
-	/* This margin I have added to "fight" the space that cause due to the uppercase */
+    font-size: 0.8em;
+    margin-top: 2px;
+    /* problem This margin I have added to "fight" the space that cause due to the uppercase */
 }
 
 .Main .category-image-container {
-	width: 100px;
-	height: 100px;
+    width: 150px;
+    height: 150px;
+
 }
 
 .Main .category-image-container img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)
+        /* problem I don't know how to make shadow like in the instructions */
+}
+
+.Main .single-products {
+    margin-top: 100px;
+}
+
+.Main .xz9-speaker-product {
+    background: var(--dark-orange);
+    min-height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    text-align: center;
+    padding: 4em 2em;
+    border-radius: 15px;
+    position: relative;
+}
+
+.Main .xz9-speaker-product::before {
+    content: "";
+    display: absolute;
+    height: 370px;
+    width: 370px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 0px;
+    opacity: 0.2;
+}
+
+.Main .xz9-speaker-product::after {
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    top: 40px;
+    opacity: 0.2;
+
+}
+
+.Main .xz9-speaker-product .big-circle {
+    top: 540;
+    left: 0px;
+    height: 800px;
+    width: 800px;
+    opacity: 1.2;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 50%;
+    bottom:180px;
+    transform: translateX(-50%);
+    opacity: 0.2;
+
+
+}
+
+.Main .xz9-speaker-product h2 {
+    color: var(--white);
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.Main .xz9-speaker-product span {
+    display: block;
+}
+
+.Main .xz9-speaker-product .speaker-info {
+    color: var(--grey);
+    opacity: 0.7;
+    line-height: 1.5em;
+}
+
+.Main .xz9-speaker-product button {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+.Main .zx9-image-container {
+    width: 250px;
+    height: 250px;
+}
+
+.Main .zx9-image-container img {
+    height: 100%;
+    width: auto;
 }
