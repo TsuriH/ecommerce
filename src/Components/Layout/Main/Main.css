@@ -1,0 +1,133 @@
+.Main {
+	background-color: var(--white);
+	height: 100%;
+}
+
+.Main .container {}
+
+.Main .promoted-product-cover {
+	position: relative;
+}
+
+.pro-product-image-container {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+}
+
+.pro-product-image {
+	width: 100%;
+	height: 100%;
+}
+
+.pro-product-info-container {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.2em;
+	text-align: center;
+	width: 100%;
+	padding: 3em;
+}
+
+.Main .pro-product-info-container p:first-child {
+	text-transform: uppercase;
+	letter-spacing: 0.7em;
+	color: var(--white);
+	opacity: 0.4;
+	font-size: 0.8em;
+}
+
+.Main .pro-product-info-container h2 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.Main .product-description {
+	color: var(--grey);
+	opacity: 0.7;
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+
+.Main .pro-product-info-container button {
+	color: var(--white);
+	background-color: var(--dark-orange);
+}
+
+.Main .products-categories {
+	background-color: tan;
+}
+
+.Main .single-category-container {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white);
+	border: 2px solid purple;
+	z-index: 1;
+
+
+}
+
+.Main .single-category-container .lower-bg {
+	position: absolute;
+	bottom: 0px;
+	background-color: var(--grey);
+	height: 70%;
+	width: 100%;
+	z-index: -1;
+
+}
+
+.Main .shop-btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	
+}
+
+.Main .single-category-container .category-name {
+	text-transform: uppercase;
+	
+}
+
+.Main .shop-btn-container button {
+	padding: 0em;
+	font-size: 15px;
+}
+
+.Main .arrow-right {
+	border: solid var(--dark-orange);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(-45deg);
+}
+
+.Main .shop {
+	font-size: 0.8em;
+	margin-top:2px;
+	/* This margin I have added to "fight" the space that cause due to the uppercase */
+}
+
+.Main .category-image-container {
+	width: 100px;
+	height: 100px;
+}
+
+.Main .category-image-container img {
+	width: 100%;
+	height: auto;
+}
