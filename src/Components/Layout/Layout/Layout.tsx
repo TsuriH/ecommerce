@@ -1,6 +1,7 @@
-import { CoverProduct } from "../CoverProduct/CoverProduct";
+import { Main } from "../Main/Main";
 import { Header } from "../Header/Header";
 import "./Layout.css";
+import { Footer } from "../Footer/Footer";
 
 export function Layout(): JSX.Element {
     return (
@@ -9,16 +10,12 @@ export function Layout(): JSX.Element {
                 <Header />
             </header>
 
-
             <main>
-                <CoverProduct />
-                {/* componenet of categories */}
-                {/* componenet of single products */}
-
+                <Main />
             </main>
-            <footer>
-                {/* contain the image and info */}
 
+            <footer>
+                <Footer />
             </footer>
         </div>
     );

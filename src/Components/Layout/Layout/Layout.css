@@ -1,5 +1,18 @@
 .Layout {
 	height: 100%;
-    border: 2px solid red;
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout main {
+    flex: 1;
+}
+
+.Layout button {
+    border:none;
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    padding: 1.3em 2.5em;
 }
