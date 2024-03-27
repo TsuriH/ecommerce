@@ -1,0 +1,122 @@
+.HeadphonesSection {
+    padding: 3.5em 1em;
+}
+
+.HeadphonesSection .single-products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin-bottom: 6em;
+
+}
+
+.HeadphonesSection .single-headphones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5em;
+}
+
+.HeadphonesSection .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.HeadphonesSection .new {
+    color: var(--light-orange);
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    font-size: 0.8em;
+}
+
+.HeadphonesSection h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.HeadphonesSection .product-description {
+    line-height: 1.8em;
+}
+
+.HeadphonesSection button {
+    background-color: var(--dark-orange);
+    color: var(--white)
+}
+
+.HeadphonesSection .single-category-container {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-between;
+    background-color: var(--white);
+    z-index: 1;
+   
+}
+
+.HeadphonesSection .category-image-container {
+    width: 150px;
+    height: 150px;
+
+}
+
+.HeadphonesSection .category-image-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)
+        /* problem I don't know how to make shadow like in the instructions */
+}
+
+.HeadphonesSection .shop-btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	margin-bottom: 1.5em;
+}
+
+.HeadphonesSection .category-product-container {
+    padding:1em;
+}
+
+.HeadphonesSection
+.category-product-container
+.single-category-container
+.shop {
+    font-size: 0.8em;
+    margin-top: 2px;
+    background:none;
+    color:var(--black);
+    padding:0em;
+
+}
+
+.HeadphonesSection .arrow-right {
+    border: solid var(--dark-orange);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3.5px;
+    transform: rotate(-45deg);
+}
+
+.HeadphonesSection .single-category-container .lower-bg {
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--grey);
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+}
+
+.HeadphonesSection .single-category-container .category-name {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}

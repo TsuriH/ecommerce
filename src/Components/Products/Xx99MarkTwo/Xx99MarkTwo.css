@@ -1,0 +1,115 @@
+.Xx99MarkTwo {
+    padding: 3.5em 1em;
+}
+
+.Xx99MarkTwo .single-products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin-bottom: 6em;
+
+}
+
+.Xx99MarkTwo .single-headphones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    gap: 1.5em;
+}
+
+.Xx99MarkTwo .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Xx99MarkTwo .new {
+    color: var(--light-orange);
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    font-size: 0.8em;
+    align-self: flex-start;
+}
+
+.Xx99MarkTwo h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.Xx99MarkTwo .product-description {
+    line-height: 1.8em;
+}
+
+.Xx99MarkTwo .quantity-and-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    gap: 1em;
+}
+
+.Xx99MarkTwo .quantity-container {
+    display: flex;
+}
+
+.Xx99MarkTwo .product-price {
+    align-self: flex-start;
+    font-weight: bold;
+
+}
+
+.Xx99MarkTwo .quantity-container>* {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Xx99MarkTwo .quantity-container .quantity {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Xx99MarkTwo button {
+    background-color: var(--dark-orange);
+    color: var(--white);
+    align-self: stretch;
+}
+
+.Xx99MarkTwo .features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 1.5em;
+}
+
+.Xx99MarkTwo .in-the-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Xx99MarkTwo .in-the-box-container .accessories {
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 1em;
+}
+
+.Xx99MarkTwo .in-the-box-container .accessories p:nth-child(odd) {
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+
+.Xx99MarkTwo .environment-image-man-headphone-container {
+}
+
+.Xx99MarkTwo .environment-image-man-headphone-container img {
+
+    height:100%;
+    width: 100%;
+    border-radius: 15px;
+}
