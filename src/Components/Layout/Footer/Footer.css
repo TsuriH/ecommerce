@@ -1,3 +1,82 @@
-.Footer {
-	
+
+
+.Footer .footer-image-container {
+    height: auto;
+    width: 100%;
+}
+
+.Footer .footer-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.Footer .company-details p,
+.Footer .nav-and-info .company-info,
+.Footer .nav-and-info .copyrights {
+    line-height: 1.7em;
+    color: var(--dark-grey);
+    opacity: 0.5;
+}
+
+.Footer .nav-and-info {
+    background-color: var(--black);
+    color: var(--white);
+    margin-top: 5em;
+}
+
+.Footer .company-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.Footer .company-details .slogan {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 1.8em;
+    opacity: 1;
+}
+
+.Footer .slogan span {
+    color: var(--dark-orange);
+}
+
+.Footer .nav-and-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4em;
+    padding: 2em;
+}
+
+.Footer .nav-and-info h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 2em;
+}
+
+.Footer .nav-and-info nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+}
+
+.Footer .nav-and-info .company-info,
+.Footer .nav-and-info .copyrights {
+    font-size: 0.9em;
+}
+
+.Footer .social-icons {
+    display: flex;
+    gap: 1em;
+    font-size: 25px;
 }

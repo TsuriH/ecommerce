@@ -4,7 +4,8 @@ import headphonesCategory from "../../../assets/product-xx99-mark-one-headphones
 import speakersCategory from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
 import earphonesCategory from "../../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"
 import zx9Speaker from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
-
+import zx7Speaker from "../../../assets/product-zx7-speaker/mobile/image-gallery-3.jpg"
+import yx1Earphones from "../../../assets/product-yx1-earphones/mobile/image-gallery-2.jpg"
 export function Main(): JSX.Element {
     return (
         <div className="Main">
@@ -75,19 +76,23 @@ export function Main(): JSX.Element {
                         <div className="big-circle"></div>
                     </div>
 
-                    {/* <div className="zx7-speakers-product">
-                        <img src={} />
+                    <div className="zx7-speakers-product">
+                        <div className="zx7Speaker-image-container">
+                            <img src={zx7Speaker} />
+                        </div>
                         <h2>zx7 speaker</h2>
                         <button>see product</button>
                     </div>
 
                     <div className="yx1-earphones-product-image">
-                        <img src={} />
+                        <div className="yx1Earphones-image-container">
+                            <img src={yx1Earphones} />
+                        </div>
                     </div>
                     <div className="earphone-name-and-btn">
                         <h2>yx1 earphones</h2>
                         <button>see product</button>
-                    </div> */}
+                    </div>
 
                 </div>
             </div>
