@@ -1,8 +1,8 @@
-.Xx99MarkTwo {
+.Xx99MarkOne {
     padding: 3.5em 1em;
 }
 
-.Xx99MarkTwo .single-products-container {
+.Xx99MarkOne .single-products-container {
     display: flex;
     flex-direction: column;
     gap: 6em;
@@ -10,7 +10,7 @@
 
 }
 
-.Xx99MarkTwo .single-headphones-container {
+.Xx99MarkOne .single-headphones-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +19,13 @@
     gap: 1.5em;
 }
 
-.Xx99MarkTwo .image-container img {
+.Xx99MarkOne .image-container img {
     height: 100%;
     width: 100%;
     border-radius: 15px;
 }
 
-.Xx99MarkTwo .new {
+.Xx99MarkOne .new {
     color: var(--light-orange);
     text-transform: uppercase;
     letter-spacing: 0.6em;
@@ -33,16 +33,16 @@
     align-self: flex-start;
 }
 
-.Xx99MarkTwo h2 {
+.Xx99MarkOne h2 {
     text-transform: uppercase;
     font-size: 2em;
 }
 
-.Xx99MarkTwo .product-description {
+.Xx99MarkOne .product-description {
     line-height: 1.8em;
 }
 
-.Xx99MarkTwo .quantity-and-add {
+.Xx99MarkOne .quantity-and-add {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,48 +50,48 @@
     gap: 1em;
 }
 
-.Xx99MarkTwo .quantity-container {
+.Xx99MarkOne .quantity-container {
     display: flex;
 }
 
-.Xx99MarkTwo .product-price {
+.Xx99MarkOne .product-price {
     align-self: flex-start;
     font-weight: bold;
 
 }
 
-.Xx99MarkTwo .quantity-container>* {
+.Xx99MarkOne .quantity-container>* {
     padding: 1em;
     background: var(--grey);
     font-weight: bold;
 }
 
-.Xx99MarkTwo .quantity-container .quantity {
+.Xx99MarkOne .quantity-container .quantity {
     padding: 1em;
     background: var(--grey);
     font-weight: bold;
 }
 
-.Xx99MarkTwo button {
+.Xx99MarkOne button {
     background-color: var(--dark-orange);
     color: var(--white);
     align-self: stretch;
 }
 
-.Xx99MarkTwo .features-container {
+.Xx99MarkOne .features-container {
     display: flex;
     flex-direction: column;
     gap: 1em;
     line-height: 1.5em;
 }
 
-.Xx99MarkTwo .in-the-box-container {
+.Xx99MarkOne .in-the-box-container {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.Xx99MarkTwo .in-the-box-container .accessories {
+.Xx99MarkOne .in-the-box-container .accessories {
     text-transform: capitalize;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -99,18 +99,18 @@
     grid-row-gap: 1em;
 }
 
-.Xx99MarkTwo .in-the-box-container .accessories p:nth-child(odd) {
+.Xx99MarkOne .in-the-box-container .accessories p:nth-child(odd) {
     color: var(--dark-orange);
     font-weight: bold;
 }
 
-.Xx99MarkTwo .design-break-container {
+.Xx99MarkOne .design-break-container {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.Xx99MarkTwo .environment-image-man-headphone-container img {
+.Xx99MarkOne .environment-image-man-headphone-container img {
 
     height: 100%;
     width: 100%;
@@ -125,25 +125,33 @@
 
 }
 
-.Xx99MarkTwo .environment-image-black-headphones img {
+.grey-square-longer {
+    background: var(--grey);
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.Xx99MarkOne .environment-image-black-headphones img {
     height: 100%;
     width: 100%;
     border-radius: 10px;
 }
 
-.Xx99MarkTwo .you-may-also-like-container {
+.Xx99MarkOne .you-may-also-like-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap:2em
 }
 
-.Xx99MarkTwo .you-may-also-like-container h2 {
+.Xx99MarkOne .you-may-also-like-container h2 {
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
-.Xx99MarkTwo .product-container {
+.Xx99MarkOne .product-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,11 +159,11 @@
     gap: 2em;
 }
 
-.Xx99MarkTwo .product-container button {
+.Xx99MarkOne .product-container button {
     align-self: center;
 }
 
-.Xx99MarkTwo .product-image-container {
+.Xx99MarkOne .product-image-container {
     position: relative;
     width: 100%;
     height: 100px;
@@ -164,7 +172,7 @@
     display: flex;
 }
 
-.Xx99MarkTwo .product-image-container img {
+.Xx99MarkOne .product-image-container img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -173,12 +181,12 @@
     height: 100%;
 }
 
-.Xx99MarkTwo .products-categories {
+.Xx99MarkOne .products-categories {
 	background-color: var(--white);
 	padding:1em
 }
 
-.Xx99MarkTwo .single-category-container {
+.Xx99MarkOne .single-category-container {
 	position: relative;
 	width: 100%;
 	height: 250px;
@@ -191,7 +199,7 @@
 	z-index: 1;
 }
 
-.Xx99MarkTwo .single-category-container .lower-bg {
+.Xx99MarkOne .single-category-container .lower-bg {
 	position: absolute;
 	bottom: 0px;
 	background-color: var(--grey);
@@ -200,7 +208,7 @@
 	z-index: -1;
 }
 
-.Xx99MarkTwo .shop-btn-container {
+.Xx99MarkOne .shop-btn-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -209,18 +217,18 @@
     
 }
 
-.Xx99MarkTwo .single-category-container .category-name {
+.Xx99MarkOne .single-category-container .category-name {
 	text-transform: uppercase;
 	font-weight: bold;
 
 }
 
-.Xx99MarkTwo .shop-btn-container button {
+.Xx99MarkOne .shop-btn-container button {
 	padding: 0em;
 	font-size: 15px;
 }
 
-.Xx99MarkTwo .arrow-right {
+.Xx99MarkOne .arrow-right {
 	border: solid var(--dark-orange);
 	border-width: 0 3px 3px 0;
 	display: inline-block;
@@ -228,7 +236,7 @@
 	transform: rotate(-45deg);
 }
 
-.Xx99MarkTwo .shop {
+.Xx99MarkOne .shop {
 	font-size: 0.8em;
 	margin-top: 2px;
     background: none;
@@ -236,13 +244,13 @@
 	/* problem This margin I have added to "fight" the space that cause due to the uppercase */
 }
 
-.Xx99MarkTwo .category-image-container {
+.Xx99MarkOne .category-image-container {
 	width: 150px;
 	height: 150px;
 
 }
 
-.Xx99MarkTwo .category-image-container img {
+.Xx99MarkOne .category-image-container img {
 	width: 100%;
 	height: auto;
 	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)

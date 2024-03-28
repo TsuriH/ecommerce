@@ -1,11 +1,13 @@
-import "./Xx99MarkTwo.css";
+import "./Xx99MarkOne.css";
+
+import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
 
 import xx99MarkTwo from "../../../assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
 
 import manWithHeadphone from "../../../assets/shared/tablet/image-best-gear.jpg"
 
 import blackHeadphones from "../../../assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg"
-import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
+// import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
 
 import xx59 from "../../../assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
 
@@ -18,23 +20,23 @@ import speakersCategory from "../../../assets/product-zx9-speaker/mobile/image-c
 import earphonesCategory from "../../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"
 
 
-export function Xx99MarkTwo(): JSX.Element {
+export function Xx99MarkOne(): JSX.Element {
     return (
-        <div className="Xx99MarkTwo">
+        <div className="Xx99MarkOne">
 
             <div className="single-products-container">
 
                 <div className="single-headphones-container">
 
                     <div className="image-container">
-                        <img src={xx99MarkTwo} alt="" />
+                        <img src={xx99MarkOne} alt="" />
                     </div>
                     <p className="new">new product</p>
-                    <h2>xx99 mark || headphones</h2>
+                    <h2>xx99 mark | headphones</h2>
                     <p className="product-description">
-                        The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.
+                        As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.
                     </p>
-                    <p className="product-price">$2,999</p>
+                    <p className="product-price">$1,750</p>
                     <div className="quantity-and-add">
                         <div className="quantity-container">
                             <p className="minus">-</p>
@@ -49,10 +51,10 @@ export function Xx99MarkTwo(): JSX.Element {
                 <div className="features-container">
                     <h2>features</h2>
                     <p className="upper-features-description">
-                        Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
+                        As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.
                     </p>
 
-                    <p className="lower-features-description">The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic.
+                    <p className="lower-features-description">From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector.
 
                     </p>
                 </div>
@@ -68,22 +70,21 @@ export function Xx99MarkTwo(): JSX.Element {
                         <p>user manual</p>
                         <p>1x</p>
                         <p>3.5mm 5m audio cable</p>
-                        <p>1x</p>
-                        <p>travel bag</p>
+
 
                     </div>
 
                 </div>
                 <div className="design-break-container">
-                    <div className="environment-image-man-headphone-container">
-                        <img src={manWithHeadphone} alt="" />
+
+                    <div className="grey-square">
                     </div>
 
                     <div className="grey-square">
                     </div>
 
-                    <div className="environment-image-black-headphones">
-                        <img src={blackHeadphones} alt="" />
+                    <div className="grey-square-longer">
+                       
                     </div>
 
 
@@ -94,9 +95,9 @@ export function Xx99MarkTwo(): JSX.Element {
 
                     <div className="product-container">
                         <div className="product-image-container">
-                            <img src={xx99MarkOne} alt="" />
+                            <img src={xx99MarkTwo} alt="" />
                         </div>
-                        <h2 className="product-name">xx99 mark | </h2>
+                        <h2 className="product-name">xx99 mark || </h2>
                         <button>see product</button>
                     </div>
 
@@ -162,10 +163,6 @@ export function Xx99MarkTwo(): JSX.Element {
 
 
             </div>
-
-
-
-
 
         </div>
     );
