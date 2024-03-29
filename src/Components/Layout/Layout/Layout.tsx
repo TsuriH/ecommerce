@@ -7,6 +7,10 @@ import { SpeakersSection } from "../SpeakersSection/SpeakersSection";
 import { EarphoneSection } from "../EarphoneSection/EarphoneSection";
 import { Xx99MarkTwo } from "../../Products/Xx99MarkTwo/Xx99MarkTwo";
 import { Xx99MarkOne } from "../../Products/Xx99MarkOne/Xx99MarkOne";
+import { Xx59 } from "../../Products/Xx59/Xx59";
+import {Zx9} from "../../Products/Zx9/Zx9";
+import { Zx7 } from "../../Products/Zx7/Zx7";
+import { Yx1 } from "../../Products/Yx1/Yx1";
 
 export function Layout(): JSX.Element {
     return (
@@ -21,7 +25,12 @@ export function Layout(): JSX.Element {
                 {/* <SpeakersSection /> */}
                 {/* <EarphoneSection /> */}
                 {/* <Xx99MarkTwo /> */}
-                <Xx99MarkOne />
+                {/* <Xx99MarkOne /> */}
+                {/* <Xx59 /> */}
+                {/* <Zx9 /> */}
+                {/* <Zx7 /> */}
+                <Yx1 />
+                
             </main>
 
             <footer>

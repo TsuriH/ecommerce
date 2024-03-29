@@ -1,13 +1,13 @@
-import "./Xx99MarkOne.css";
+import "./Xx59.css";
 
-import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
+import Xx59Image from "../../../assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
 
 import xx99MarkTwo from "../../../assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg"
 
+import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
 import manWithHeadphone from "../../../assets/shared/tablet/image-best-gear.jpg"
 
 import blackHeadphones from "../../../assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg"
-// import xx99MarkOne from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
 
 import xx59 from "../../../assets/product-xx59-headphones/mobile/image-category-page-preview.jpg"
 
@@ -20,23 +20,23 @@ import speakersCategory from "../../../assets/product-zx9-speaker/mobile/image-c
 import earphonesCategory from "../../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"
 
 
-export function Xx99MarkOne(): JSX.Element {
+export function Xx59(): JSX.Element {
     return (
-        <div className="Xx99MarkOne">
+        <div className="Xx59">
 
             <div className="single-products-container">
 
                 <div className="single-headphones-container">
 
                     <div className="image-container">
-                        <img src={xx99MarkOne} alt="" />
+                        <img src={Xx59Image} alt="" />
                     </div>
                     <p className="new">new product</p>
-                    <h2>xx99 mark | headphones</h2>
+                    <h2> xx59 headphones</h2>
                     <p className="product-description">
-                        As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.
+                        Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move
                     </p>
-                    <p className="product-price">$1,750</p>
+                    <p className="product-price">$899</p>
                     <div className="quantity-and-add">
                         <div className="quantity-container">
                             <p className="minus">-</p>
@@ -51,10 +51,10 @@ export function Xx99MarkOne(): JSX.Element {
                 <div className="features-container">
                     <h2>features</h2>
                     <p className="upper-features-description">
-                        As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.
+                        These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.
                     </p>
 
-                    <p className="lower-features-description">From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector.
+                    <p className="lower-features-description">More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.
 
                     </p>
                 </div>
@@ -84,7 +84,7 @@ export function Xx99MarkOne(): JSX.Element {
                     </div>
 
                     <div className="grey-square-longer">
-                       
+
                     </div>
 
 
@@ -103,7 +103,7 @@ export function Xx99MarkOne(): JSX.Element {
 
                     <div className="product-container">
                         <div className="product-image-container">
-                            <img src={xx59} alt="" />
+                            <img src={xx99MarkOne} alt="" />
                         </div>
                         <h2 className="product-name">xx59</h2>
                         <button>see product</button>

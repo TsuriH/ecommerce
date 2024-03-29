@@ -1,3 +1,258 @@
-.XX59 {
-	
+.Xx59 {
+    padding: 3.5em 1em;
+}
+
+.Xx59 .single-products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin-bottom: 6em;
+
+}
+
+.Xx59 .single-headphones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    gap: 1.5em;
+}
+
+.Xx59 .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Xx59 .new {
+    color: var(--light-orange);
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    font-size: 0.8em;
+    align-self: flex-start;
+}
+
+.Xx59 h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.Xx59 .product-description {
+    line-height: 1.8em;
+}
+
+.Xx59 .quantity-and-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    gap: 1em;
+}
+
+.Xx59 .quantity-container {
+    display: flex;
+}
+
+.Xx59 .product-price {
+    align-self: flex-start;
+    font-weight: bold;
+
+}
+
+.Xx59 .quantity-container>* {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Xx59 .quantity-container .quantity {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Xx59 button {
+    background-color: var(--dark-orange);
+    color: var(--white);
+    align-self: stretch;
+}
+
+.Xx59 .features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 1.5em;
+}
+
+.Xx59 .in-the-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Xx59 .in-the-box-container .accessories {
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 1em;
+}
+
+.Xx59 .in-the-box-container .accessories p:nth-child(odd) {
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+
+.Xx59 .design-break-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Xx59 .environment-image-man-headphone-container img {
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grey-square {
+    background: var(--grey);
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.grey-square-longer {
+    background: var(--grey);
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.Xx59 .environment-image-black-headphones img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Xx59 .you-may-also-like-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:2em
+}
+
+.Xx59 .you-may-also-like-container h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.Xx59 .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.Xx59 .product-container button {
+    align-self: center;
+}
+
+.Xx59 .product-image-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: var(--grey);
+    border-radius: 5px;
+    display: flex;
+}
+
+.Xx59 .product-image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
+}
+
+.Xx59 .products-categories {
+	background-color: var(--white);
+	padding:1em
+}
+
+.Xx59 .single-category-container {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white);
+	z-index: 1;
+}
+
+.Xx59 .single-category-container .lower-bg {
+	position: absolute;
+	bottom: 0px;
+	background-color: var(--grey);
+	height: 70%;
+	width: 100%;
+	z-index: -1;
+}
+
+.Xx59 .shop-btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	margin-bottom: 1.5em;
+    
+}
+
+.Xx59 .single-category-container .category-name {
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.Xx59 .shop-btn-container button {
+	padding: 0em;
+	font-size: 15px;
+}
+
+.Xx59 .arrow-right {
+	border: solid var(--dark-orange);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3.5px;
+	transform: rotate(-45deg);
+}
+
+.Xx59 .shop {
+	font-size: 0.8em;
+	margin-top: 2px;
+    background: none;
+    color:black;
+	/* problem This margin I have added to "fight" the space that cause due to the uppercase */
+}
+
+.Xx59 .category-image-container {
+	width: 150px;
+	height: 150px;
+
+}
+
+.Xx59 .category-image-container img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)
+		/* problem I don't know how to make shadow like in the instructions */
 }
