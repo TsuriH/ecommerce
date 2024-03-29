@@ -1,0 +1,262 @@
+.Yx1 {
+    padding: 3.5em 1em;
+}
+
+.Yx1 .single-products-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin-bottom: 6em;
+
+}
+
+.Yx1 .single-headphones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    gap: 1.5em;
+}
+
+.Yx1 .image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Yx1 .new {
+    color: var(--light-orange);
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    font-size: 0.8em;
+    align-self: flex-start;
+}
+
+.Yx1 h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.Yx1 .product-description {
+    line-height: 1.8em;
+}
+
+.Yx1 .quantity-and-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    gap: 1em;
+}
+
+.Yx1 .quantity-container {
+    display: flex;
+}
+
+.Yx1 .product-price {
+    align-self: flex-start;
+    font-weight: bold;
+
+}
+
+.Yx1 .quantity-container>* {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Yx1 .quantity-container .quantity {
+    padding: 1em;
+    background: var(--grey);
+    font-weight: bold;
+}
+
+.Yx1 button {
+    background-color: var(--dark-orange);
+    color: var(--white);
+    align-self: stretch;
+}
+
+.Yx1 .features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    line-height: 1.5em;
+}
+
+.Yx1 .in-the-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Yx1 .in-the-box-container .accessories {
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 1em;
+}
+
+.Yx1 .in-the-box-container .accessories p:nth-child(odd) {
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+
+.Yx1 .design-break-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Yx1 .environment-image-man-headphone-container img {
+
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.smaller-environment-image-container{
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.environment-image-container {
+    height: 380px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.Yx1 .smaller-environment-image-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Yx1 .environment-image-container  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Yx1 .you-may-also-like-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:2em
+}
+
+.Yx1 .you-may-also-like-container h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.Yx1 .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.Yx1 .product-container button {
+    align-self: center;
+}
+
+.Yx1 .product-image-container {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: var(--grey);
+    border-radius: 5px;
+    display: flex;
+}
+
+.Yx1 .product-image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
+}
+
+.Yx1 .products-categories {
+	background-color: var(--white);
+	padding:1em
+}
+
+.Yx1 .single-category-container {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--white);
+	z-index: 1;
+}
+
+.Yx1 .single-category-container .lower-bg {
+	position: absolute;
+	bottom: 0px;
+	background-color: var(--grey);
+	height: 70%;
+	width: 100%;
+	z-index: -1;
+}
+
+.Yx1 .shop-btn-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	margin-bottom: 1.5em;
+    
+}
+
+.Yx1 .single-category-container .category-name {
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.Yx1 .shop-btn-container button {
+	padding: 0em;
+	font-size: 15px;
+}
+
+.Yx1 .arrow-right {
+	border: solid var(--dark-orange);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3.5px;
+	transform: rotate(-45deg);
+}
+
+.Yx1 .shop {
+	font-size: 0.8em;
+	margin-top: 2px;
+    background: none;
+    color:black;
+	/* problem This margin I have added to "fight" the space that cause due to the uppercase */
+}
+
+.Yx1 .category-image-container {
+	width: 150px;
+	height: 150px;
+
+}
+
+.Yx1 .category-image-container img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)
+		/* problem I don't know how to make shadow like in the instructions */
+}
