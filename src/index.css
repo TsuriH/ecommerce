@@ -14,8 +14,8 @@
   --light-grey: #FAFAFA;
 }
 
-#root, body {
+#root, body, #root>div{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   font-family: "Manrope", sans-serif;
 }

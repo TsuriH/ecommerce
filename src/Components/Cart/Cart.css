@@ -1,8 +1,28 @@
 .Cart {
+    background: rgba(66, 49, 49, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid green;
+}
+
+.Cart .cart-container {
     padding: 2em;
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 2.5em;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+
+
 }
 
 .Cart .cart-header {

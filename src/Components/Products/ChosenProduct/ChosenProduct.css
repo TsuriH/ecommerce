@@ -1,13 +1,13 @@
 .ChosenProduct {
     display: grid;
-    grid-template-columns: auto auto 100px;
+    grid-template-columns: auto auto 80px;
     align-items: center;
 
 }
 
 .ChosenProduct .product-container-image img {
     border-radius: 10px;
-    height: 70px;
+    height: 50px;
 }
 
 .ChosenProduct .total-container {
@@ -33,12 +33,13 @@
 .ChosenProduct .product-name {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 .ChosenProduct .product-price {
     color: grey;
     font-weight: bold;
+    font-size: 0.8em;
 }
 
 .ChosenProduct .quantity-number {
