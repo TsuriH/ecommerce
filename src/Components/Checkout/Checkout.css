@@ -1,3 +1,6 @@
 .Checkout {
-	
+    background: red;
+    height: 500px;
+    
+	border-radius: 10px;
 }
