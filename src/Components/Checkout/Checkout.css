@@ -1,6 +1,154 @@
 .Checkout {
-    background: red;
-    height: 500px;
+    /* height: 500px; */
+    border-radius: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Checkout .billing-details,
+.Checkout .shipping-info,
+.Checkout .payment-details {
+    margin-top: 1em;
+}
+
+
+.Checkout form>* {
+    display: flex;
+    flex-direction: column;
+}
+
+.Checkout form h2 {
+    text-transform: uppercase;
+    color: var(--dark-orange);
+    margin-bottom: 0.5em;
+}
+
+.Checkout label {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.Checkout form input {
+    padding: 1.2em 1.5em;
+    border: none;
+    color: grey;
+    border: 1px solid;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    margin-top: 0.4em;
+}
+
+.Checkout .payment-method {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: 0.9em 1em;
+    border: none;
+    color: grey;
+    border: 1px solid;
+    border-radius: 6px;
+    text-transform: none;
+    margin-top: 1em;
+    align-items: center;
     
-	border-radius: 10px;
+}
+
+.Checkout .payment-method span {
+    color: black
+}
+
+.Checkout .payment-method input {
+    margin: 0px;
+    /* accent-color: orange; */
+    width: 20px;
+    height: 2em;
+}
+
+.Checkout .payment-method input{
+
+    background: transparent;
+}
+
+.Checkout .e-money-number {
+    margin-top: 2em;
+}
+
+.Checkout .products-container {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.Checkout .summary .product-container {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    gap:2em;
+    
+}
+
+.Checkout .mini-container-descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+    
+}
+
+.Checkout .product-container img {
+    width: auto;
+    height: 80px;
+    border-radius: 15px;
+
+}
+
+.Checkout .product-container {
+    width: auto;
+    height: 80px;
+    border-radius: 15px;
+
+}
+
+.Checkout .product-container p:first-child {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: 1.1em;
+
+}
+
+.Checkout .product-container .quantity {
+justify-self: end;
+align-self: start;
+    color:grey;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.Checkout .products-details {
+    gap:4em
+}
+
+.Checkout .recap {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap:1em;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.Checkout .recap .price {
+    place-self: end;
+    color:black;
+    font-weight: bold;
+}
+
+.Checkout  button {
+    background-color: var(--dark-orange);
+    color: white;
+    margin-top: 2em;
+    font-size: 1em;
+    
 }
