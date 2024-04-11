@@ -1,0 +1,89 @@
+.ThankYouPage {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.ThankYouPage .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 2em
+}
+
+.ThankYouPage .header .thank-you {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.ThankYouPage .order-details {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.ThankYouPage .products-details {
+    display: grid;
+    grid-template-columns: 70px 1fr auto;
+    align-items: center;
+
+}
+
+.ThankYouPage .product-image {
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.ThankYouPage .quantity {
+    align-self: flex-start;
+    font-weight: bold;
+    color: grey;
+}
+
+.ThankYouPage .product-details {
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.ThankYouPage .products-details .product-details p:first-child {
+    font-weight: bold;
+}
+
+.ThankYouPage .grand-total {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.ThankYouPage .products {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ThankYouPage .grand {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 1em;
+
+}
+
+.ThankYouPage .other-items {
+    align-self: center;
+
+}
+
+.ThankYouPage button {
+    background: var(--dark-orange);
+    /* margin-top: 2em; */
+    width: 100%;
+    color: white;
+    /* height:5em; */
+}
