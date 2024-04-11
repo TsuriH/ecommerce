@@ -13,6 +13,7 @@ import { Zx7 } from "../../Products/Zx7/Zx7";
 import { Yx1 } from "../../Products/Yx1/Yx1";
 import { Cart } from "../../Cart/Cart";
 import Checkout from "../../Checkout/Checkout";
+import { ThankYouPage } from "../ThankYouPage/ThankYouPage";
 
 export function Layout(): JSX.Element {
     return (
@@ -33,7 +34,8 @@ export function Layout(): JSX.Element {
                 {/* <Zx9 /> */}
                 {/* <Zx7 /> */}
                 {/* <Yx1 /> */}
-                <Checkout />
+                {/* <Checkout /> */}
+                <ThankYouPage />
             </main>
 
             <footer>
