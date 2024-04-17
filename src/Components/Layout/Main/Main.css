@@ -134,7 +134,8 @@
 
 .Main .single-products {
 	margin-top: 100px;
-	padding:1em
+	padding:1em;
+    position: relative;
 }
 
 .Main .xz9-speaker-product {
@@ -149,6 +150,7 @@
 	padding: 4em 2em;
 	border-radius: 15px;
 	position: relative;
+    overflow: hidden;
 }
 
 .Main .xz9-speaker-product::before {
@@ -183,12 +185,13 @@
 	width: 800px;
 	opacity: 1.2;
 	position: absolute;
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 50%;
 	left: 50%;
 	bottom: 180px;
 	transform: translateX(-50%);
 	opacity: 0.2;
+    overflow: hidden;
 }
 
 .Main .xz9-speaker-product h2 {
@@ -242,7 +245,7 @@
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	right: -60px;
+	right: 0px;
 	z-index: -1;
 
 }

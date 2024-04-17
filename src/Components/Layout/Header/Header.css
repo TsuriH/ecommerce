@@ -12,3 +12,9 @@
     font-family: "Outfit", sans-serif;
     font-size: 2em ;
 }
+
+@media (min-width: 700px) {
+    .Header {
+        background-color: red;
+    }
+}
