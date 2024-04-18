@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.4em 1em;
+    border-bottom:  1px solid rgba(141, 140, 140, 0.3);
 }
 
 .Header h1 {
@@ -15,6 +16,15 @@
 
 @media (min-width: 700px) {
     .Header {
-        background-color: red;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .Header h1 {
+        flex:1;
+        margin-bottom: 0.1em;
+    }
+
+    .Header .hamburger-menu {
+        margin-right: 2em;
     }
 }

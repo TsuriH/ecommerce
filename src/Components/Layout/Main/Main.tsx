@@ -1,9 +1,9 @@
 import "./Main.css";
 import proProductImage from "../../../assets/home/mobile/image-header.jpg"
-import headphonesCategory from "../../../assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"
-import speakersCategory from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
-import earphonesCategory from "../../../assets/product-yx1-earphones/mobile/image-category-page-preview.jpg"
-import zx9Speaker from "../../../assets/product-zx9-speaker/mobile/image-category-page-preview.jpg"
+import headphonesCategory from "../../../assets/shared/desktop/image-category-thumbnail-headphones.png"
+import speakersCategory from "../../../assets/shared/desktop/image-category-thumbnail-speakers.png"
+import earphonesCategory from "../../../assets/shared/desktop/image-category-thumbnail-earphones.png"
+import zx9Speaker from "../../../assets/shared/desktop/image-category-thumbnail-speakers.png"
 import zx7Speaker from "../../../assets/product-zx7-speaker/mobile/image-gallery-3.jpg"
 import yx1Earphones from "../../../assets/product-yx1-earphones/mobile/image-gallery-2.jpg"
 export function Main(): JSX.Element {
@@ -42,7 +42,7 @@ export function Main(): JSX.Element {
                         <div className="category-image-container">
                             <img src={speakersCategory} alt="" />
                         </div>
-                        <p className="category-name">headphones</p>
+                        <p className="category-name">speakers</p>
                         <div className="shop-btn-container">
                             <button className="shop">shop</button>
                             <p><i className="arrow-right"></i></p>
@@ -54,7 +54,7 @@ export function Main(): JSX.Element {
                         <div className="category-image-container">
                             <img src={earphonesCategory} alt="" />
                         </div>
-                        <p className="category-name">headphones</p>
+                        <p className="category-name">earphones</p>
                         <div className="shop-btn-container">
                             <button className="shop">shop</button>
                             <p><i className="arrow-right"></i></p>

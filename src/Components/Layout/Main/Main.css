@@ -60,21 +60,36 @@
 
 .Main .products-categories {
 	background-color: var(--white);
-	padding: 1em
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	/* gap: 1em; */
 }
 
 .Main .single-category-container {
+	/* border: 5px solid red; */
 	position: relative;
 	width: 100%;
-	height: 250px;
+	/* height: 250px; */
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: var(--white);
+	gap:1em;
 	z-index: 1;
+	/* border: 2px solid red; */
 }
+
+.Main .single-category-container .category-name {
+	/* margin-bottom: 1em; */
+}
+
+
+/* .Main .single-category-container>* {
+	border: purple 2px solid
+} */
 
 .Main .single-category-container .lower-bg {
 	position: absolute;
@@ -83,6 +98,7 @@
 	height: 70%;
 	width: 100%;
 	z-index: -1;
+	border-radius: 10px;
 }
 
 .Main .shop-btn-container {
@@ -90,18 +106,24 @@
 	align-items: center;
 	justify-content: center;
 	gap: 1em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 .Main .single-category-container .category-name {
 	text-transform: uppercase;
 	font-weight: bold;
 
+
 }
+/* 
+.Main .single-category-container > * {
+	border: 1px solid red;
+} */
 
 .Main .shop-btn-container button {
 	padding: 0em;
-	font-size: 15px;
+    font-size: 11px;
+	
 }
 
 .Main .arrow-right {
@@ -119,22 +141,24 @@
 }
 
 .Main .category-image-container {
-	width: 150px;
-	height: 150px;
+	/* margin-top: 40px; */
+	width: 120px;
+	height: 120px;
 
 }
 
 .Main .category-image-container img {
 	width: 100%;
 	height: auto;
-	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3)
-		/* problem I don't know how to make shadow like in the instructions */
+	margin-top: 20px;
+	/* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3) */
+	/* problem I don't know how to make shadow like in the instructions */
 }
 
 .Main .single-products {
 	margin-top: 100px;
-	padding:1em;
-    position: relative;
+	padding: 1em;
+	position: relative;
 }
 
 .Main .xz9-speaker-product {
@@ -149,7 +173,7 @@
 	padding: 4em 2em;
 	border-radius: 15px;
 	position: relative;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .Main .xz9-speaker-product::before {
@@ -190,7 +214,7 @@
 	bottom: 180px;
 	transform: translateX(-50%);
 	opacity: 0.2;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .Main .xz9-speaker-product h2 {
@@ -309,8 +333,22 @@
 	border: 2px solid;
 }
 
-@media (min-width: 700px) {
-	.Main  {
+@media (min-width: 480px) {
+	.Main .products-categories {
+		display: flex;
+		flex-direction: row;
+		gap:0.5em;
+		margin-top: 4em;
+
+	}
+
+	.Main .category-image-container {
+		width: 80px;
+		height: 80px;
+
+	}
+
+	.Main .single-category-container {
 
 	}
 }
