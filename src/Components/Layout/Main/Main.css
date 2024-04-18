@@ -61,7 +61,7 @@
 .Main .products-categories {
 	background-color: var(--white);
 	border: 2px solid green;
-	padding:1em
+	padding: 1em
 }
 
 .Main .single-category-container {
@@ -134,7 +134,8 @@
 
 .Main .single-products {
 	margin-top: 100px;
-	padding:1em
+	padding: 1em;
+	position: relative;
 }
 
 .Main .xz9-speaker-product {
@@ -242,9 +243,8 @@
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	right: -60px;
+	right: 0px;
 	z-index: -1;
-
 }
 
 .Main .zx7Speaker-image-container img {
@@ -300,10 +300,16 @@
 	font-weight: bold;
 }
 
-.Main .earphone-name-and-btn > * {
-margin-left: 50px;
+.Main .earphone-name-and-btn>* {
+	margin-left: 50px;
 }
 
 .Main .earphone-name-and-btn button {
 	border: 2px solid;
+}
+
+@media (min-width: 700px) {
+	.Main  {
+
+	}
 }

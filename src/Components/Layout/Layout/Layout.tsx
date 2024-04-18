@@ -24,8 +24,8 @@ export function Layout(): JSX.Element {
             </header>
 
             <main>
-                {/* <Main /> */}
-                {/* <HeadphonesSection /> */}
+                <Main /> 
+                <HeadphonesSection />
                 {/* <SpeakersSection /> */}
                 {/* <EarphoneSection /> */}
                 {/* <Xx99MarkTwo /> */}
@@ -35,7 +35,7 @@ export function Layout(): JSX.Element {
                 {/* <Zx7 /> */}
                 {/* <Yx1 /> */}
                 {/* <Checkout /> */}
-                <ThankYouPage />
+                {/* <ThankYouPage /> */}
             </main>
 
             <footer>
