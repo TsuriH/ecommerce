@@ -24,6 +24,8 @@ export function Layout(): JSX.Element {
             </header>
 
             <main>
+                <Main />
+                {/* <HeadphonesSection /> */}
                 <Main /> 
                 <HeadphonesSection />
                 {/* <SpeakersSection /> */}
